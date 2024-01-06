@@ -1,6 +1,4 @@
-import human.Employee;
-import human.Person;
-import human.Student;
+import human.*;
 
 import java.util.*;
 
