@@ -31,7 +31,7 @@ public class Employee extends Person implements Payable {
 
     @Override
     public String getPosition() {
-        return position;
+        return position+":";
     }
 
     @Override
@@ -41,6 +41,6 @@ public class Employee extends Person implements Payable {
 
     @Override
     public String toString() {
-        return "Employee:"+super.toString();
+        return super.toString();
     }
 }

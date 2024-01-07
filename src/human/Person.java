@@ -32,12 +32,12 @@ public abstract class Person implements Payable, Comparable<Person>{
         return id;
     }
     public String getPosition(){
-        return "Student";
+        return "Student:";
     }
 
     @Override
     public String toString() {
-        return getId()+"."+name+" "+surname;
+        return getPosition()+getId()+"."+name+" "+surname;
     }
 
     @Override

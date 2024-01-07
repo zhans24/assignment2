@@ -31,6 +31,6 @@ public class Student extends Person implements Payable {
 
     @Override
     public String toString() {
-        return "Student:"+super.toString();
+        return super.toString();
     }
 }
