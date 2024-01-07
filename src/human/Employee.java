@@ -3,7 +3,7 @@ package human;
 import Interface.Payable;
 
 public class Employee extends Person implements Payable {
-    private String position;
+    private String position="Employee";
     private double salary;
     public Employee(){
         super();
